@@ -7,7 +7,7 @@ const nextConfig = {
       {
         source: "/api/:path*",
         destination:
-          "https://performance-feedback-server.vercel.app/api/:path*",
+          "https://performance-feedback-server-blush.vercel.app/api/:path*",
       },
     ];
   },

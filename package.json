@@ -2,7 +2,7 @@
   "name": "globalnews-next12",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://performance-feedback-server.vercel.app",
+  "proxy": "https://performance-feedback-server-blush.vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
