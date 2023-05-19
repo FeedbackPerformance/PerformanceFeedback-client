@@ -20,7 +20,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 const TeamCard = ({ team }) => {
   // States
   const [openCard, setOpenCard] = useState(false);
-  const [teamMembers, setTeamMembers] = useState(team.Users);
+  const [teamMembers, setTeamMembers] = useState(team.users);
   const [removeUserTeam, setRemoveUserTeam] = useState(false);
   // Redux
   const user = useSelector((store) => store.user);
@@ -39,7 +39,7 @@ const TeamCard = ({ team }) => {
   useEffect(() => {
     axios
       .get(`/api/teams/${team.id}`, { withCredentials: true })
-      .then((res) => setTeamMembers(res.data.Users))
+      .then((res) => setTeamMembers(res.data.users))
       .catch((err) => customMessage("error", err.response));
   }, [removeUserTeam, openCard]);
 
@@ -235,13 +235,13 @@ const TeamCard = ({ team }) => {
               {user.isAdmin ? (
                 <Table
                   columns={headersAdmin}
-                  rows={teamMembers || team.Users}
+                  rows={teamMembers || team.users}
                   pageSize={5}
                 />
               ) : (
                 <Table
                   columns={headersUser}
-                  rows={teamMembers || team.Users}
+                  rows={teamMembers || team.users}
                   pageSize={5}
                 />
               )}
