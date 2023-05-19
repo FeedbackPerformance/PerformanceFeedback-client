@@ -1,5 +1,5 @@
 {
-  "name": "globalnews-next12",
+  "name": "performancefeedback",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://performance-feedback-server-blush.vercel.app",

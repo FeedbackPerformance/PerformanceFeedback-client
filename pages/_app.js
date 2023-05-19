@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <title>GlobalNews - Devolución de Performance</title>
+        <title> Performance Feedback </title>
       </Head>
       <Box sx={{ display: "flex" }}>
         <Providers>

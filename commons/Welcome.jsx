@@ -23,7 +23,7 @@ export default function Welcome() {
     >
       <CardMedia
         component="img"
-        image="/GlobalNews.svg"
+        image="/Performance Feedback.png"
         alt="Bloqued"
         sx={{
           p: "10px",
