@@ -74,6 +74,20 @@ export const Login = () => {
           height={50}
           priority
         />
+
+        <Button
+          style={{
+            backgroundColor: "#64748b",
+            color: "#cbd5e1",
+            padding: "10px",
+            borderRadius: "8px",
+            height: "20px",
+          }}
+          onClick={() => router.push("/")}
+        >
+          ⇚ Usuarios
+        </Button>
+
         <form
           style={{ width: "100%", marginTop: "2rem" }}
           onSubmit={handleSubmit}
