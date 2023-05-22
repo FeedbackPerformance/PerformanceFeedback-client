@@ -46,28 +46,23 @@ export default function Welcome() {
         </Typography>
 
         <Typography
+          variant="body2"
+          color="text.secondary"
           sx={{ display: "flex", justifyContent: "center" }}
-          gutterBottom
-          variant="h5"
-          component="div"
         >
-          Email: 
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {"->"} admin@example.com
-          {"->"} donquijote@example.com
+          email: admin@example.com
+          <br />
+          contraseña: 12345678
         </Typography>
 
         <Typography
+          variant="body2"
+          color="text.secondary"
           sx={{ display: "flex", justifyContent: "center" }}
-          gutterBottom
-          variant="h5"
-          component="div"
         >
-          Contraseña: 
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          12345678
+          email: donquijote@example.com
+          <br />
+          contraseña: 12345678
         </Typography>
       </CardContent>
 
