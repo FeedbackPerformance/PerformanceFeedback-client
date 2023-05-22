@@ -1,5 +1,5 @@
 ## Repositorio Backend
-[Performance Feedback serve](https://github.com/NicoFJCruz/PerformanceFeedback-server)
+[Performance Feedback server](https://github.com/NicoFJCruz/PerformanceFeedback-server)
 
 ## Getting Started
 
